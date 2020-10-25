@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.js": "./static/js/main.81931941.chunk.js",
+    "main.js.map": "./static/js/main.81931941.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.916853f0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
+    "static/js/2.2570672d.chunk.js": "./static/js/2.2570672d.chunk.js",
+    "static/js/2.2570672d.chunk.js.map": "./static/js/2.2570672d.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.40478e3105a2b9b0be68af77b6d06921.js": "./precache-manifest.40478e3105a2b9b0be68af77b6d06921.js",
+    "service-worker.js": "./service-worker.js",
+    "static/js/2.2570672d.chunk.js.LICENSE.txt": "./static/js/2.2570672d.chunk.js.LICENSE.txt",
+    "static/media/bg_about.png": "./static/media/bg_about.22a9fa06.png",
+    "static/media/bg_home.png": "./static/media/bg_home.0dd4bc83.png",
+    "static/media/contact.png": "./static/media/contact.cf648148.png",
+    "static/media/css.png": "./static/media/css.effacde7.png",
+    "static/media/download.png": "./static/media/download.98f79a0f.png",
+    "static/media/figma.png": "./static/media/figma.9c55f753.png",
+    "static/media/html.png": "./static/media/html.664a8c00.png",
+    "static/media/iids.jpg": "./static/media/iids.14bae900.jpg",
+    "static/media/illustrator.png": "./static/media/illustrator.60b7e38e.png",
+    "static/media/infinity.jpg": "./static/media/infinity.88b01a9f.jpg",
+    "static/media/java.png": "./static/media/java.bedb9549.png",
+    "static/media/life.jpg": "./static/media/life.d527c311.jpg",
+    "static/media/logo 3.png": "./static/media/logo 3.72fb60ee.png",
+    "static/media/logo.png": "./static/media/logo.2beca4f5.png",
+    "static/media/mysql.png": "./static/media/mysql.0108dd5e.png",
+    "static/media/nei.jpg": "./static/media/nei.660885ab.jpg",
+    "static/media/photoshop.png": "./static/media/photoshop.32321249.png",
+    "static/media/php.png": "./static/media/php.ffaeff31.png",
+    "static/media/ppged.jpg": "./static/media/ppged.9f69d34b.jpg",
+    "static/media/python.png": "./static/media/python.80832097.png",
+    "static/media/react.png": "./static/media/react.4aeaaeab.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.916853f0.js",
+    "static/js/2.2570672d.chunk.js",
+    "static/js/main.81931941.chunk.js"
+  ]
+}
