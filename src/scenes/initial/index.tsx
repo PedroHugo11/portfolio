@@ -18,7 +18,7 @@ const Initial: React.FC = () => {
         <ContainerTextHome>
           <TitleHome>
             Hello World! I am Pedro Hugo, a Fullstack Web Developer with
-            experience in PHP, HTML, CSS and JS technologies.
+            experience in PHP, HTML, CSS, JS technologies and graphic designer.
           </TitleHome>
           <ParagraphHome>
             Since 2014 learning and developing in several programming languages.
