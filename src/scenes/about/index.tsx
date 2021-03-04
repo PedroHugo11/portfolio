@@ -25,10 +25,10 @@ const About: React.FC = () => {
           Technology. I also have the React and React-Native course certificate
           from Rocketseat.
           <br />
-          <br />I have my own digital agency, Happy File (@happy.file), where I
-          work as a graphic designer, designing logos, social media and the arts
-          in general. I work with programs such as Prohotoshop, Illustrator,
-          Figma and Sony Vegas. In addition to the agency, I interned at IFRN as
+          <br />I have my own digital agency, Happy File (@ happy.file on instagram), 
+          where I work as a graphic designer, designing logos, social media, inserts and video production. 
+          I work with programs like Prohotoshop, Illustrator, Figma and Sony Vegas. 
+          In addition to the agency, I interned at IFRN as
           a music tutor for 1 year and in the area of ​​prototype development
           for 1 year, building a low-cost fire sensor. At UFRN, I have been a
           fellow at the Education Center since 2018, where I have developed
