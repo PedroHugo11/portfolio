@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { colors, media } from 'src/styles';
 import BgProject from 'src/assets/bg_project.png';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.section`
   min-height: 100vh;
@@ -24,7 +25,7 @@ export const TitleContainer = styled.h1`
   font-weight: bold;
   text-align: center;
   margin-bottom: 2%;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-bold", sans-serif;
   color: ${colors.terciary};
 
   &:after {

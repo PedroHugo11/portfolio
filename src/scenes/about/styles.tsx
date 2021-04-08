@@ -4,13 +4,24 @@ import BgAbout from 'src/assets/bg_service.png';
 
 export const Container = styled.section`
   min-height: 85vh;
-  width: 100%;
+  width: 100vw;
   background-color: ${colors.background};
   flex-flow: column nowrap;
   align-items: center;
+  margin-top:60%;
+
+  
+  ${media.mobileL} {
+    margin-top:5% !important;
+  }
+
+  ${media.mobileM} {
+    margin-top:5% !important;
+  }
 
   ${media.tablet} {
-    min-height: 100vh;
+    margin-top:0% !important;
+    
     width: 100vw;
   }
 `;
@@ -30,8 +41,9 @@ export const TitleContainer = styled.h1`
   font-weight: bold;
   text-align: center;
   margin-bottom: 2%;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-bold", sans-serif;
   color: ${colors.terciary};
+  width:100vw;
 
   &:after {
     content: '';
@@ -40,6 +52,50 @@ export const TitleContainer = styled.h1`
     height: 5px;
     background-color: ${colors.secondary};
     margin: 5px auto 0;
+  }
+`;
+
+export const ContainerIntroAbout = styled.div`
+  flex-flow: row wrap;
+  width: 100%;
+  margin-top: 0%;
+  margin-bottom:2%;
+  justify-content: center;
+  text-align:center;
+
+  ${media.tablet} {
+    width: 55%;
+    flex-flow: row nowrap;
+  }
+`;
+
+export const ImageAbout = styled.img`
+  width: 60% !important;
+  object-fit: contain;
+  margin-top: 5%;
+
+  ${media.tablet} {
+    width: 35% !important;
+    margin-top: 0%;
+  }
+`;
+
+export const TitleAbout = styled.h1`
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  font-family: "poppins-bold", sans-serif;
+  color: ${colors.terciary};
+  margin-left:0%;
+  padding: 0;
+  margin-top:6%;
+
+  ${media.tablet} {
+    text-align: justify;
+    margin-left:10%;
+    margin-top:6%;
+    font-size: 1.6rem;
+    line-height: 1.3;
   }
 `;
 

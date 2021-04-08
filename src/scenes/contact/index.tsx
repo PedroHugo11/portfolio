@@ -17,6 +17,7 @@ import {
   ContainerLogo,
   HrefLogo,
   Logo,
+  ParagraphContactLink,
 } from './styles';
 
 const Contact: React.FC = () => {
@@ -27,10 +28,11 @@ const Contact: React.FC = () => {
         <ImageContact src={ImgContact} />
         <ContainerContact>
           <TitleContact>
-            Questions ? Please contact us by e-mail below to request more
-            information
+            Nice to meet you!
           </TitleContact>
-          <ParagraphContact>pedrohuugoo11@hotmail.com</ParagraphContact>
+          <ParagraphContactLink href="https://api.whatsapp.com/send?1=pt_BR&phone=5584998223869">Text me on WhatsApp</ParagraphContactLink>
+          <ParagraphContactLink href="mailto:pedrohuugoo11@gmail.com">Mail me at pedrohuugoo11@gmail.com</ParagraphContactLink>
+          <ParagraphContactLink href="https://drive.google.com/file/d/1nslIkH0TRG_B6DeCRUe9XbQlA4jjRWzy/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
           <ContainerLogo>
             <HrefLogo href="https://github.com/PedroHugo11">
               <Logo src={Logo1} />
@@ -45,6 +47,7 @@ const Contact: React.FC = () => {
               <Logo src={Logo4} />
             </HrefLogo>
           </ContainerLogo>
+          <ParagraphContact>2021/Natal-RN</ParagraphContact>
         </ContainerContact>
       </ContentContainer>
     </Container>

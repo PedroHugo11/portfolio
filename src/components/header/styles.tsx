@@ -1,9 +1,12 @@
 import { colors, media } from 'src/styles';
 import styled from 'styled-components';
 
+import { Link } from 'react-router-dom';
+
 export const Container = styled.header`
   width: 100%;
   position: absolute;
+  z-index:0;
 `;
 
 export const Nav = styled.nav`
@@ -12,10 +15,11 @@ export const Nav = styled.nav`
   align-items: center;
   background: ${colors.background};
   height: 5rem;
-  width: 100%;
+  width: 100vw;
   box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.5);
 
   ${media.tablet} {
+    top:0;
     position: fixed;
     justify-content: space-around;
     align-items: center;
@@ -26,13 +30,13 @@ export const Nav = styled.nav`
   }
 `;
 
-export const Link = styled.a`
+export const Linke = styled.a`
   color: ${colors.primary};
-  font-family: 'Oswald';
+  font-family: "poppins-bold";
 
   ${media.tablet} {
     color: ${colors.primary};
-    font-family: 'Oswald';
+    font-family: "poppins-bold";
   }
 `;
 

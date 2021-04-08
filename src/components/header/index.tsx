@@ -1,17 +1,17 @@
 import React from 'react';
 
-import { Container, Nav, Link } from './styles';
+import { Container, Nav, Linke } from './styles';
 //import imgLogo from 'src/assets/logo.png';
 
 const Header: React.FC = () => {
   return (
     <Container>
       <Nav>
-        <Link href="#initial">HOME</Link>
-        <Link href="#about">ABOUT</Link>
-        <Link href="#services">SERVICES</Link>
-        <Link href="#projects">PROJECTS</Link>
-        <Link href="#contact">CONTACT</Link>
+        <Linke href='/#initial'>HOME</Linke>
+        <Linke href='#about'>ABOUT</Linke>
+        <Linke href='#services '>SERVICES</Linke>
+        <Linke href='#projects'>PROJECTS</Linke>
+        <Linke href='#contact'>CONTACT</Linke>
       </Nav>
     </Container>
   );

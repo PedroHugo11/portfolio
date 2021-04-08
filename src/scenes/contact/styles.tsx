@@ -20,7 +20,7 @@ export const TitleContainer = styled.h1`
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-bold", sans-serif;
   color: ${colors.terciary};
   background-image: url(${BgContact});
 
@@ -62,7 +62,7 @@ export const ImageContact = styled.img`
 `;
 
 export const ContainerContact = styled.div`
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   width: 85%;
   justify-content: center;
 
@@ -77,7 +77,7 @@ export const TitleContact = styled.h1`
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-extrabold", sans-serif;
   color: ${colors.secondary};
 
   ${media.tablet} {
@@ -85,17 +85,36 @@ export const TitleContact = styled.h1`
   }
 `;
 
-export const ParagraphContact = styled.p`
+export const ParagraphContactLink = styled.a`
   font-size: 1rem;
-  font-weight: 400;
   margin-top: 2%;
   margin-left: 6%;
   text-align: center;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-medium", sans-serif;
+  color: #013e75;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 
   ${media.tablet} {
     font-size: 1.5rem;
     margin-left: 0%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  }
+`;
+
+export const ParagraphContact = styled.p`
+  
+  font-size: 1.5rem;
+  margin-top: 5%;
+  text-align: center;
+  
+  font-family: "poppins-bold", sans-serif;
+  color: ${colors.secondary};
+
+  ${media.tablet} {
+    font-size: 1.7rem;
+    margin-top: 5%;
   }
 `;
 
@@ -103,16 +122,22 @@ export const ContainerLogo = styled.div`
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
+  align-text: center;
   margin-top: 5%;
+  margin-left:0%;
 
   ${media.tablet} {
-    justify-content: center;
+    margin-top: 5%;
+    margin-left:0%;
   }
 `;
 
 export const HrefLogo = styled.a`
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
+  justify-content: center;
+  align-items: center;
+  align-text: center;
 
   ${media.tablet} {
     margin-left: 1% !important;
@@ -121,7 +146,7 @@ export const HrefLogo = styled.a`
 `;
 
 export const Logo = styled.img`
-  width: 2rem;
+  width: 2.5rem;
 
   ${media.tablet} {
     width: 2rem;

@@ -3,7 +3,7 @@ const customMediaQuery = (maxWidth: number) => `@media (min-width: ${maxWidth}px
 export const devicesWidth = {
   mobileS: 320,
   mobileM: 375,
-  mobileL: 425,
+  mobileL: 414,
   tablet: 768,
   laptop: 1024,
   laptopL: 1440,

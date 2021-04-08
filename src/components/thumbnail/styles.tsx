@@ -20,6 +20,24 @@ export const ThumbnailProject = styled.div`
   }
 `;
 
+export const LastThumbnailProject = styled.div`
+  display: flex;
+  background-color: #faf9f9;
+  border: 2px solid #fff;
+  border-width: 1px;
+  border-radius: 16px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 10%;
+
+  ${media.tablet} {
+    width: 100%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    margin-top: 2%;
+  }
+`;
+
 export const ThumbnailLink = styled.a`
   margin-left: auto;
   margin-bottom: 20px;

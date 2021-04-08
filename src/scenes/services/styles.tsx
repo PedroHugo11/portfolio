@@ -32,7 +32,7 @@ export const TitleContainer = styled.h1`
   font-weight: bold;
   text-align: center;
   margin-bottom: 1%;
-  font-family: 'Noto Sans JP';
+  font-family: "poppins-bold", sans-serif;
   color: ${colors.terciary};
 
   &:after {

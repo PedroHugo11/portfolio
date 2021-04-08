@@ -6,6 +6,4 @@ export const Container = styled.div`
   height: 100%;
   width: 100vw;
   flex-flow: row wrap;
-
-  //flex-flow: row wrap;
 `;
