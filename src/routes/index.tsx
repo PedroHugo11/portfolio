@@ -12,7 +12,7 @@ const Routes: React.FC = () => {
         <Route exact path="/" basename={process.env.PUBLIC_URL}>
           <Home />
         </Route>
-        <Route exact path="/happy-file" basename={process.env.PUBLIC_URL}>
+        <Route  path="/happy-file" basename={process.env.PUBLIC_URL}>
           <Portfolio />
         </Route>
       </Switch>
