@@ -8,11 +8,9 @@ import Home from 'src/pages/home';
 const Routes: React.FC = () => {
   return (
     <BrowserRouter>
-      <Switch>
         <Route path="/" basename={process.env.PUBLIC_URL}>
           <Home />
         </Route>
-      </Switch>
     </BrowserRouter>
   );
 };
