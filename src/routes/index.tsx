@@ -9,10 +9,10 @@ const Routes: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" basename={process.env.PUBLIC_URL}>
+        <Route exact path="/" basename={process.env.PUBLIC_URL}>
           <Home />
         </Route>
-        <Route path="/happy-file" basename={process.env.PUBLIC_URL}>
+        <Route exact path="/happy-file" basename={process.env.PUBLIC_URL}>
           <Portfolio /> 
         </Route>
       </Switch>
