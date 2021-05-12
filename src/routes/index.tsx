@@ -9,7 +9,7 @@ const Routes: React.FC = () => {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/" basename={process.env.PUBLIC_URL}>
+        <Route path="/" basename={process.env.PUBLIC_URL}>
           <Home />
         </Route>
         <Route exact path="/happy-file" basename={process.env.PUBLIC_URL}>
