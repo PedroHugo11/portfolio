@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
           <TitleContact>
             Nice to meet you!
           </TitleContact>
-          <ParagraphContactLink href="https://api.whatsapp.com/send?1=pt_BR&phone=5584998223869">Text me on WhatsApp</ParagraphContactLink>
+          <ParagraphContactLink href="https://api.whatsapp.com/send?1=pt_BR&phone=5584998223869">Text me on WhatsApp!</ParagraphContactLink>
           <ParagraphContactLink href="mailto:pedrohuugoo11@hotmail.com">Mail me at pedrohuugoo11@hotmail.com</ParagraphContactLink>
           <ParagraphContactLink href="https://drive.google.com/file/d/1B0-2MbOwRP3BpDAXWn48-12udhR7P9Gc/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
           <ContainerLogo>
