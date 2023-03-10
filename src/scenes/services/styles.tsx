@@ -56,7 +56,7 @@ export const SubTitle = styled.p`
   line-height: 1.5;
   font-family: 'Noto Sans JP';
   width: 90%;
-  margin-bottom: 1.5%;
+  margin-bottom: 2%;
 
   ${media.tablet} {
     width: 50%;

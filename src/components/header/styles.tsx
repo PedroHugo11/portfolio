@@ -1,8 +1,6 @@
 import { colors, media } from 'src/styles';
 import styled from 'styled-components';
 
-import { Link } from 'react-router-dom';
-
 export const Container = styled.header`
   width: 100%;
   position: absolute;

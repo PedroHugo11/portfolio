@@ -64,7 +64,8 @@ export const ContainerIntroAbout = styled.div`
   text-align:center;
 
   ${media.tablet} {
-    width: 55%;
+    padding-left: 15rem;
+    padding-right: 15rem;
     flex-flow: row nowrap;
   }
 `;
@@ -86,7 +87,8 @@ export const TitleAbout = styled.h1`
   text-align: center;
   font-family: "poppins-bold", sans-serif;
   color: ${colors.terciary};
-  margin-left:0%;
+  margin-left:2%;
+  margin-right:2%;
   padding: 0;
   margin-top:6%;
 

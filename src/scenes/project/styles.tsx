@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { colors, media } from 'src/styles';
 import BgProject from 'src/assets/bg_project.png';
-import { Link } from 'react-router-dom';
+
 
 export const Container = styled.section`
   min-height: 100vh;
@@ -50,6 +50,15 @@ export const SubTitle = styled.p`
   ${media.tablet} {
     width: 50%;
   }
+`;
+
+export const Linka = styled.a`
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 1.5;
+  font-family: 'Noto Sans JP';
+  display:inline;
 `;
 
 export const ImageContainer = styled.div`

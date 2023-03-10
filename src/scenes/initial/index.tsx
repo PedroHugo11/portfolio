@@ -3,7 +3,6 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faInstagram } from '@fortawesome/free-brands-svg-icons'
 import React from 'react';
-import BgHome from 'src/assets/intro-bg.jpg';
 import { Center } from 'src/styles/global';
 
 import {
@@ -19,7 +18,6 @@ import {
   HrefA,
   ButtonLink,
 } from './styles';
-import { Link } from 'react-router-dom';
 
 const Initial: React.FC = () => {
   return (

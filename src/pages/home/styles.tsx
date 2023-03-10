@@ -1,4 +1,4 @@
-import { colors, media } from 'src/styles';
+import { colors } from 'src/styles';
 import styled from 'styled-components';
 
 export const Container = styled.div`

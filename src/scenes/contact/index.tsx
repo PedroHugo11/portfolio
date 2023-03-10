@@ -31,8 +31,8 @@ const Contact: React.FC = () => {
             Nice to meet you!
           </TitleContact>
           <ParagraphContactLink href="https://api.whatsapp.com/send?1=pt_BR&phone=5584998223869">Text me on WhatsApp</ParagraphContactLink>
-          <ParagraphContactLink href="mailto:pedrohuugoo11@gmail.com">Mail me at pedrohuugoo11@gmail.com</ParagraphContactLink>
-          <ParagraphContactLink href="https://drive.google.com/file/d/1nslIkH0TRG_B6DeCRUe9XbQlA4jjRWzy/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
+          <ParagraphContactLink href="mailto:pedrohuugoo11@hotmail.com">Mail me at pedrohuugoo11@hotmail.com</ParagraphContactLink>
+          <ParagraphContactLink href="https://drive.google.com/file/d/1B0-2MbOwRP3BpDAXWn48-12udhR7P9Gc/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
           <ContainerLogo>
             <HrefLogo href="https://github.com/PedroHugo11">
               <Logo src={Logo1} />
@@ -47,7 +47,7 @@ const Contact: React.FC = () => {
               <Logo src={Logo4} />
             </HrefLogo>
           </ContainerLogo>
-          <ParagraphContact>2021/Natal-RN</ParagraphContact>
+          <ParagraphContact>2023/Natal-RN</ParagraphContact>
         </ContainerContact>
       </ContentContainer>
     </Container>

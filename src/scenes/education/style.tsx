@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { colors, media } from 'src/styles';
-import BgAbout from 'src/assets/bg_service.png';
 
 export const Container = styled.section`
   min-height: 50vh;

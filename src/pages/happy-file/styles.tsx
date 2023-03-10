@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 import BgHome from 'src/assets/intro-bg-3.png';
 import BgHome2 from 'src/assets/intro-bg-4.png';
-import BgProject from 'src/assets/bg_project.png';
 
 export const Container = styled.section`
   height: 100vh;

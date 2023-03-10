@@ -9,7 +9,6 @@ const Header: React.FC = () => {
       <Nav>
         <Linke href='/#initial'>HOME</Linke>
         <Linke href='#about'>ABOUT</Linke>
-        <Linke href='#services '>SERVICES</Linke>
         <Linke href='#projects'>PROJECTS</Linke>
         <Linke href='#contact'>CONTACT</Linke>
       </Nav>
