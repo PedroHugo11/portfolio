@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a1970657caff63d668e48e1abb8f0b86",
+    "revision": "247983ac0c3b8c77b1499fae1346caf6",
     "url": "./index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.3cd031e7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f2d0e0e8ee236d82a71d",
-    "url": "./static/js/main.07d47cdc.chunk.js"
+    "revision": "0eeaf3ce3b6d59fc57b7",
+    "url": "./static/js/main.7f477233.chunk.js"
   },
   {
     "revision": "610a38b7b5a7cb7b2d5e",
@@ -112,6 +112,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Poppins-Regular.8b6af8e5.ttf"
   },
   {
+    "revision": "ed24180a00f13a942f627da22ad92e55",
+    "url": "./static/media/angular.ed24180a.png"
+  },
+  {
     "revision": "22a9fa0681b8b23041c16d5c4554ea17",
     "url": "./static/media/bg_about.22a9fa06.png"
   },
@@ -168,8 +172,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/infinity.88b01a9f.jpg"
   },
   {
-    "revision": "04fc4c47041ed444bac26ad59fe98dd1",
-    "url": "./static/media/intro-bg-2.04fc4c47.png"
+    "revision": "3af19a4ba05e8539df9e1392946a9b89",
+    "url": "./static/media/intro-bg-2.3af19a4b.png"
   },
   {
     "revision": "3731eb3abacbd2a2af7d0e00eb65eca5",
@@ -180,8 +184,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/intro-bg-4.7c36fe58.png"
   },
   {
-    "revision": "e25022d0ef36ec9ba0b2478cd4737b09",
-    "url": "./static/media/intro-bg.e25022d0.jpg"
+    "revision": "2eb263351e160adaa0b03eab16b38786",
+    "url": "./static/media/intro-bg.2eb26335.jpg"
   },
   {
     "revision": "d527c3119d755e238692a2f66566e268",
@@ -204,16 +208,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/nei.660885ab.jpg"
   },
   {
-    "revision": "32321249f837564c862acba0d19f5606",
-    "url": "./static/media/photoshop.32321249.png"
-  },
-  {
     "revision": "ffaeff3155d6589df0d351f3e4410c99",
     "url": "./static/media/php.ffaeff31.png"
-  },
-  {
-    "revision": "50156c71fb2cf47d5cfe134231975922",
-    "url": "./static/media/postgresql.50156c71.png"
   },
   {
     "revision": "385694215aa5281c680c3574548d5be9",
