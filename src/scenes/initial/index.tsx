@@ -28,7 +28,7 @@ const Initial: React.FC = () => {
           <TitleHome1>PORTFOLIO</TitleHome1>
           <TitleHome2>PEDRO HUGO</TitleHome2>
           <ParagraphCentralHome>|  Front-End Developer  |   UI/UX Designer  |</ParagraphCentralHome>
-          <ButtonLink href="/#about"><ButtonHome>Learn More</ButtonHome></ButtonLink>
+          <ButtonLink href="/#about"><ButtonHome>See More</ButtonHome></ButtonLink>
         </Center>
         <IntroSocial>
           <IntroSocialLi>
@@ -38,7 +38,7 @@ const Initial: React.FC = () => {
               <HrefA target='_blank' href='https://www.linkedin.com/in/pedrohugo11/'><FontAwesomeIcon icon={faLinkedin}/></HrefA>              
             </IntroSocialLi>
             <IntroSocialLi>
-              <HrefA target='_blank' href='https://www.instagram.com/happy.file/'><FontAwesomeIcon icon={faInstagram}/></HrefA>
+              <HrefA target='_blank' href='https://www.instagram.com/pdrohugo/'><FontAwesomeIcon icon={faInstagram}/></HrefA>
             </IntroSocialLi>           
         </IntroSocial>
     </Container>

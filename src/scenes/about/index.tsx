@@ -20,14 +20,11 @@ function calculaIdade(dataNasc: string){
   var anoNasc = parseInt(anoNascParts[2]);
   var idade = anoAtual - anoNasc;
   var mesAtual = dataAtual.getMonth() + 1; 
-  //Se mes atual for menor que o nascimento, nao fez aniversario ainda;  
   if(mesAtual < mesNasc){
   idade--; 
   } else {
-  //Se estiver no mes do nascimento, verificar o dia
   if(mesAtual === mesNasc){ 
   if(new Date().getDate() < diaNasc ){ 
-  //Se a data atual for menor que o dia de nascimento ele ainda nao fez aniversario
   idade--; 
   }
   }
@@ -44,17 +41,15 @@ const About: React.FC = () => {
         <ContainerIntroAbout>
           <ImageAbout src={ImgAbout} />
           <TitleAbout>
-            Hello World! I am Pedro Hugo, a Front-End Developer and graphic designer.
+            Hello World! I am Pedro Hugo, a Front-End Developer and Designer UI/UX.
           </TitleAbout>
         </ContainerIntroAbout>
  
         <ParagraphContainer>
-          Hello World! My full name is Pedro Hugo da Silva Freire, i am {minhaIdade} years old and i'm brazilian living in Natal/RN. English is my second language i'm always work in progress and my native language is portuguese.
-          <br />
-          <br />
-          For 8 years learning many languages and working on private and academic projects with teams. Currently i'm working as frontend developer at Debtstream Solution.
-          <br />
-          <br />
+          Hello, world! My full name is Pedro Hugo da Silva Freire. I am {minhaIdade} years old and I'm a Brazilian living in Natal, RN. English is my second language — I'm always a work in progress — and my native language is Portuguese.
+        </ParagraphContainer>
+        <ParagraphContainer>
+          Mid-level web developer with solid experience in full stack development since 2018, working with React, Angular, .NET, and ASP.NET in the construction and maintenance of web systems. Additionally, I have extensive experience in creating, integrating, and monitoring automated tests using Playwright with C# and Selenium. I also work in the UI/UX design area, using tools like Figma to collaborate on creating modern and intuitive interfaces, ensuring a better user experience.
         </ParagraphContainer>
       </ContentContainer>
     </Container>

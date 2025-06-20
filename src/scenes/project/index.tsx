@@ -18,13 +18,36 @@ import imageDebtstream from 'src/assets/projects/debtstream.png';
 
 import Thumbnail from 'src/components/thumbnail';
 
+function calculaAnosTrabalhados(dataInicio: string): number {
+  const partes = dataInicio.split('/');
+  const diaInicio = parseInt(partes[0]);
+  const mesInicio = parseInt(partes[1]) - 1; // meses começam do 0
+  const anoInicio = parseInt(partes[2]);
+
+  const dataInicial = new Date(anoInicio, mesInicio, diaInicio);
+  const hoje = new Date();
+
+  let anos = hoje.getFullYear() - dataInicial.getFullYear();
+
+  if (
+    hoje.getMonth() < dataInicial.getMonth() ||
+    (hoje.getMonth() === dataInicial.getMonth() && hoje.getDate() < dataInicial.getDate())
+  ) {
+    anos--;
+  }
+
+  return anos;
+}
+
+const anosTrabalhados = calculaAnosTrabalhados("23/03/2022");
+
 const Project: React.FC = () => {
   return (
     <Container id="projects">
       <ContentContainer>
         <TitleContainer>Projects</TitleContainer>
         <SubTitle>
-        During my formation in I.T. at <Linka href="https://www.metropoledigital.ufrn.br/portal/">IMD</Linka>, I worked as a Full-Stack for 4 years at <Linka href="https://ce.ufrn.br/">Centro de Educação</Linka> and 1 year at <Linka href="https://debtstream.co.uk/">Debtstream Solutions</Linka>. I worked on development projects for both systems and portals. Below I show some products that I participated in the development/creation.
+        During my formation in I.T. at <Linka href="https://www.metropoledigital.ufrn.br/portal/">IMD</Linka>, I worked as a Full-Stack for 4 years at <Linka href="https://ce.ufrn.br/">Centro de Educação</Linka> and {anosTrabalhados} year at <Linka href="https://debtstream.co.uk/">Debtstream Solutions</Linka>. I worked on development projects for both systems and portals. Below I show some products that I participated in the development/creation.
         </SubTitle>
         <ImageContainer>
           <Thumbnail

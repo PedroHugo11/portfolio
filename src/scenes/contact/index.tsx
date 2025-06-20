@@ -20,6 +20,13 @@ import {
   ParagraphContactLink,
 } from './styles';
 
+function anoAtual(): number {
+  return new Date().getFullYear();
+}
+
+// Exemplo de uso:
+const ano = anoAtual();
+
 const Contact: React.FC = () => {
   return (
     <Container id="contact">
@@ -32,7 +39,7 @@ const Contact: React.FC = () => {
           </TitleContact>
           <ParagraphContactLink href="https://api.whatsapp.com/send?1=pt_BR&phone=5584998223869">Text me on WhatsApp!</ParagraphContactLink>
           <ParagraphContactLink href="mailto:pedrohuugoo11@hotmail.com">Mail me at pedrohuugoo11@hotmail.com</ParagraphContactLink>
-          <ParagraphContactLink href="https://drive.google.com/file/d/1B0-2MbOwRP3BpDAXWn48-12udhR7P9Gc/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
+          <ParagraphContactLink href="https://drive.google.com/file/d/1dhG5lTcG2NLQUxrw63P8e1CDVzyLahw_/view?usp=sharing">Curriculum Vitae</ParagraphContactLink>
           <ContainerLogo>
             <HrefLogo href="https://github.com/PedroHugo11">
               <Logo src={Logo1} />
@@ -47,7 +54,7 @@ const Contact: React.FC = () => {
               <Logo src={Logo4} />
             </HrefLogo>
           </ContainerLogo>
-          <ParagraphContact>2023/Natal-RN</ParagraphContact>
+          <ParagraphContact>{ano}/Natal-RN</ParagraphContact>
         </ContainerContact>
       </ContentContainer>
     </Container>
